@@ -1,0 +1,14 @@
+.contact h1 {
+    font-family: 'Poppins', sans-serif;
+	font-size: 49px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 60px auto 10px;
+	color: #ffb400;
+    text-shadow: 2px 4px 3px #9f0404;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.contact .container{
+    width: 85%;
+}
