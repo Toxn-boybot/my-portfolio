@@ -27,7 +27,7 @@ import './index.css'
 
 // import './js/modernizr.custom';
 
-import './js/preloader.min';
+// import './js/preloader.min';
 import './js/myAnimations';
 
 const container = document.getElementById('root');

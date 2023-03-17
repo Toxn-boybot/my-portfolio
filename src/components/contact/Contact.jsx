@@ -1,6 +1,6 @@
 import React from 'react';
-import './contact.css';
 import Header from '../header/Header';
+import './contact.css';
 const Contact = () => {
 	return (
 		<div className='contact'>
@@ -18,46 +18,46 @@ const Contact = () => {
 							visions.
 						</p>
 						<p className='open-sans-font custom-span-contact position-relative'>
-							<i class='fa fa-envelope-open position-absolute'></i>
-							<span class='d-block'>mail me</span>mahmdoud.saad3911@gmail.com
+							<i className='fa fa-envelope-open position-absolute'></i>
+							<span className='d-block'>mail me</span>mahmdoud.saad3911@gmail.com
 						</p>
 						<p className='open-sans-font custom-span-contact position-relative'>
-							<i class='fa fa-phone-square position-absolute'></i>
-							<span class='d-block'>call me</span>01016236987
+							<i className='fa fa-phone-square position-absolute'></i>
+							<span className='d-block'>call me</span>01016236987
 						</p>
 						<ul className='social list-unstyled pt-1 mb-5'>
 							<li className='facebook'>
 								<a
 									title='Facebook'
 									href='https://www.facebook.com/Surplus.Killer/'
-									target='_blank'
+									target='_blank' rel="noreferrer"
 								>
-									<i class='fa-brands fa-facebook-f'></i>
+									<i className='fa-brands fa-facebook-f'></i>
 								</a>
 							</li>
 							<li className='linkedin'>
 								<a
 									title='linkedin'
 									href='https://www.linkedin.com/in/toxn/'
-									target='_blank'
+									target='_blank' rel="noreferrer"
 								>
-									<i class='fa-brands fa-linkedin'></i>
+									<i className='fa-brands fa-linkedin'></i>
 								</a>
 							</li>
 							<li className='whatsapp'>
 								<a
 									title='whatsapp'
 									href='https://api.whatsapp.com/send?phone=201016236987'
-									target='_blank'
+									target='_blank' rel="noreferrer"
 								>
-									<i class='fa-brands fa-whatsapp'></i>
+									<i className='fa-brands fa-whatsapp'></i>
 								</a>
 							</li>
 							<li className='github'>
 								<a
 									title='github'
 									href='https://github.com/Toxn-boybot'
-									target='_blank'
+									target='_blank' rel="noreferrer"
 								>
 									<i className='fa fa-github'></i>
 								</a>
@@ -68,7 +68,7 @@ const Contact = () => {
 					<div className='col-12 col-lg-8'>
 						<form
 							className='contactform'
-							enctype='”text/plain”'
+							encType='”text/plain”'
 							name='”EmailForm”'
 							action='https://formspree.io/f/xdovdrzb'
 							method='POST'
@@ -102,7 +102,7 @@ const Contact = () => {
 											name='message'
 											placeholder='YOUR MESSAGE'
 										></textarea>
-										<button type='submit' class='btn btn-contact'>
+										<button type='submit' className='btn btn-contact'>
 											<span data-hover='Send Message'>Send Message</span>
 										</button>
 									</div>
