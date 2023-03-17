@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.d7eb401a.css",
+    "main.js": "/my-portfolio/static/js/main.178d48ad.js",
+    "static/media/fiverr.png": "/my-portfolio/static/media/fiverr.0b78b8758b989b3b44d4.png",
+    "static/media/hims.png": "/my-portfolio/static/media/hims.7352cb40c8d3fe6d446a.png",
+    "static/media/Mahmoud Saad Resume.pdf": "/my-portfolio/static/media/Mahmoud Saad Resume.07f6219f99e7980d114b.pdf",
+    "static/media/fa-solid-900.ttf": "/my-portfolio/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/fa-brands-400.ttf": "/my-portfolio/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/weatherapp.png": "/my-portfolio/static/media/weatherapp.3e3a07818f42acb5bc36.png",
+    "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/dashboard.png": "/my-portfolio/static/media/dashboard.bc61708c497fbad9b464.png",
+    "static/media/fa-regular-400.ttf": "/my-portfolio/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/me.jpg": "/my-portfolio/static/media/me.c39859b21506e8b2f2bf.jpg",
+    "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/fa-v4compatibility.ttf": "/my-portfolio/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/my-portfolio/index.html",
+    "main.d7eb401a.css.map": "/my-portfolio/static/css/main.d7eb401a.css.map",
+    "main.178d48ad.js.map": "/my-portfolio/static/js/main.178d48ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7eb401a.css",
+    "static/js/main.178d48ad.js"
+  ]
+}
