@@ -9,7 +9,7 @@ const App = () => {
 	return (
 		<HashRouter>
 			<Routes>
-				<Route path='/' element={<Header />}>
+				<Route path='' element={<Header />}>
 					<Route path="home" element={<Home />} />
 					<Route path='about' element={<About />} />
 					<Route path='portfolio' element={<Portfolio />} />
