@@ -11,7 +11,7 @@ const Header = () => {
 				<ul>
 					<li>
 						<Link
-							to='/'
+							to='/home'
 							onClick={() => setActivePage('home')}
 							className={activePage === 'home' ? 'active' : ''}
 						>

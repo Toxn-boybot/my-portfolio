@@ -4,19 +4,19 @@ import Home from './components/home/Home';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Header from './components/header/Header';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 const App = () => {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				<Route path='/' element={<Header />}>
-					<Route index  element={<Home />} />
+					<Route path="home" element={<Home />} />
 					<Route path='about' element={<About />} />
 					<Route path='portfolio' element={<Portfolio />} />
 					<Route path='contact' element={<Contact />} />
 				</Route>
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	);
 };
 
