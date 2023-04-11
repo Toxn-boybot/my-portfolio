@@ -1,10 +1,13 @@
 import React from 'react';
+import Preloader from '../preloader/Preloader';
 import Header from './../header/Header';
 import './about.css';
+
 
 const About = () => {
 	return (
 		<div className='about'>
+			<Preloader/>
 			<div className='container'>
 				<h1 className='text-center'>ABOUT ME</h1>
 				{/* Personal info start  */}

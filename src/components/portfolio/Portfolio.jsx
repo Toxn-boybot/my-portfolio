@@ -5,10 +5,11 @@ import Fiverr from '../../assets/img/fiverr.png';
 import WeatherApp from '../../assets/img/weatherapp.png';
 import Dashboard from '../../assets/img/dashboard.png';
 import Header from '../header/Header';
+import Preloader from './../preloader/Preloader';
 const portfolio = () => {
 	return (
 		<div className='portfolio'>
-           
+           <Preloader/>
             <h1 className='text-center'>Portfolio</h1>
             <h5 className='text-center'>My Recent Work</h5>
             

@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from '../header/Header';
 import './contact.css';
+import Preloader from '../preloader/Preloader';
 const Contact = () => {
 	return (
 		<div className='contact'>
-			
+			<Preloader/>
 			<h1 className='text-center'>Contact me</h1>
 			<div className='container'>
 				<div className='row'>
@@ -19,7 +20,7 @@ const Contact = () => {
 						</p>
 						<p className='open-sans-font custom-span-contact position-relative'>
 							<i className='fa fa-envelope-open position-absolute'></i>
-							<span className='d-block'>mail me</span>mahmdoud.saad3911@gmail.com
+							<span className='d-block'>mail me</span>mahmoud.saad3911@gmail.com
 						</p>
 						<p className='open-sans-font custom-span-contact position-relative'>
 							<i className='fa fa-phone-square position-absolute'></i>

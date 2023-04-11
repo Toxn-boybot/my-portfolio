@@ -51,6 +51,7 @@ a.active {
 }
 .header a:hover {
 	background-color: #ffb400;
+	text-decoration:none;
 }
 .header a h2 {
 	background: #ffb400;
