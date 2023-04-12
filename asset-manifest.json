@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2e85a7a7.css",
-    "main.js": "/my-portfolio/static/js/main.f2c8c1c4.js",
+    "main.js": "/my-portfolio/static/js/main.d6a22d73.js",
     "static/media/fiverr.png": "/my-portfolio/static/media/fiverr.0b78b8758b989b3b44d4.png",
     "static/media/hims.png": "/my-portfolio/static/media/hims.7352cb40c8d3fe6d446a.png",
     "static/media/Mahmoud Saad Resume.pdf": "/my-portfolio/static/media/Mahmoud Saad Resume.07f6219f99e7980d114b.pdf",
@@ -19,10 +19,10 @@
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/my-portfolio/index.html",
     "main.2e85a7a7.css.map": "/my-portfolio/static/css/main.2e85a7a7.css.map",
-    "main.f2c8c1c4.js.map": "/my-portfolio/static/js/main.f2c8c1c4.js.map"
+    "main.d6a22d73.js.map": "/my-portfolio/static/js/main.d6a22d73.js.map"
   },
   "entrypoints": [
     "static/css/main.2e85a7a7.css",
-    "static/js/main.f2c8c1c4.js"
+    "static/js/main.d6a22d73.js"
   ]
 }
