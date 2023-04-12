@@ -4,6 +4,7 @@ import HIMS from '../../assets/img/hims.png';
 import Fiverr from '../../assets/img/fiverr.png';
 import WeatherApp from '../../assets/img/weatherapp.png';
 import Dashboard from '../../assets/img/dashboard.png';
+import Eskil from '../../assets/img/eskil.png';
 import Header from '../header/Header';
 import Preloader from './../preloader/Preloader';
 const portfolio = () => {
@@ -61,6 +62,28 @@ const portfolio = () => {
 				</article>
 				<article className='portfolio-item'>
 					<div className='portfolio-item-img'>
+						<img src={Eskil} alt='' />
+					</div>
+					<h3>Eskil</h3>
+					<div className='portfolio-item-cta'>
+						<a
+							href='https://github.com/Toxn-boybot/E-Commerce-ESKIL'
+							className='btn'
+							target='_blank'
+						>
+							Github
+						</a>
+						<a
+							href='https://toxn-boybot.github.io/E-Commerce-ESKIL/#/'
+							className='btn '
+							target='_blank'
+						>
+							Live Demo
+						</a>
+					</div>
+				</article>
+				<article className='portfolio-item'>
+					<div className='portfolio-item-img'>
 						<img src={WeatherApp} alt='' />
 					</div>
 					<h3>Weather App</h3>
@@ -81,6 +104,7 @@ const portfolio = () => {
 						</a>
 					</div>
 				</article>
+				
 				<article className='portfolio-item'>
 					<div className='portfolio-item-img'>
 						<img src={Dashboard} alt='' />
