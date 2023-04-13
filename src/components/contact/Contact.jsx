@@ -60,7 +60,7 @@ const Contact = () => {
 									href='https://github.com/Toxn-boybot'
 									target='_blank' rel="noreferrer"
 								>
-									<i className='fa fa-github'></i>
+									<i class="fa-brands fa-github"></i>
 								</a>
 							</li>
 						</ul>
