@@ -34,7 +34,7 @@ const Home = () => {
 								excellent software that improves the lives of those around me.
 							</p>
 							<div className='buttonCol'>
-								<a href={myCV} download className='btn'>
+								<a href="https://drive.google.com/file/d/1bD03nS6vzGz0U3B7BrTQ9RQdufL5pPXb/view" target='_blank' className='btn'>
 									Download CV
 								</a>
 								<a href='/about'>
