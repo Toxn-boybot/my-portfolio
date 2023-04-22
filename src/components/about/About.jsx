@@ -1,13 +1,25 @@
 import React from 'react';
 import Preloader from '../preloader/Preloader';
-import Header from './../header/Header';
+import HTML from '../../assets/img/html5.png';
+import CSS from '../../assets/img/css.png';
+import JS from '../../assets/img/js.png';
+import ReactLogo from '../../assets/img/react.png';
+import NextLogo from '../../assets/img/nextjs.png';
+import ReduxLogo from '../../assets/img/redux.png'
+import TailwindLogo from '../../assets/img/tailwind.png'
+import BootstrapLogo from '../../assets/img/bootstrap.png'
+import MUI from '../../assets/img/mui.png'
+import GitLogo from '../../assets/img/git.png'
+import SassLogo from '../../assets/img/sass.png'
+import NodeLogo from '../../assets/img/nodejs.png'
+import ExpressLogo from '../../assets/img/express.png'
+import MongoLogo from '../../assets/img/MongoLogo.png'
 import './about.css';
-
 
 const About = () => {
 	return (
 		<div className='about'>
-			<Preloader/>
+			<Preloader />
 			<div className='container'>
 				<h1 className='text-center'>ABOUT ME</h1>
 				{/* Personal info start  */}
@@ -107,133 +119,70 @@ const About = () => {
 					</div>
 				</div>
 				{/* Personal info end  */}
-				<hr className='separator'></hr>
-				{/* Skills start  */}
+				<hr className='separator' />
+				{/* My Skills Start  */}
 				<div className='skills'>
 					<h3 className='title text-center'>MY SKILLS</h3>
-					<div className='row align-items-center'>
-						<div className='col-md-6'>
-							<div className='skill mb-4'>
-								<div className='d-flex justify-content-between'>
-									<h6 className=''>HTML & CSS</h6>
-									<h6 className=''>In 2018</h6>
-								</div>
-								<div
-									className='progress'
-									role='progressbar'
-									aria-label='Basic example'
-									aria-valuenow='100'
-									aria-valuemin='0'
-									aria-valuemax='100'
-								>
-									<div
-										className='progress-bar'
-										style={{ width: '0', backgroundColor: 'red' }}
-									></div>
-								</div>
-							</div>
-							<div className='skill mb-4'>
-								<div className='d-flex justify-content-between'>
-									<h6 className=''>JavaScript & jQuery</h6>
-									<h6 className=''>In 2019</h6>
-								</div>
-								<div
-									className='progress'
-									role='progressbar'
-									aria-label='Basic example'
-									aria-valuenow='100'
-									aria-valuemin='0'
-									aria-valuemax='100'
-								>
-									<div
-										className='progress-bar'
-										style={{ width: '0', backgroundColor: '#ffc107' }}
-									></div>
-								</div>
-							</div>
-							<div className='skill mb-4'>
-								<div className='d-flex justify-content-between'>
-									<h6 className=''>Bootstrap & Sass</h6>
-									<h6 className=''>In 2020</h6>
-								</div>
-								<div
-									className='progress'
-									role='progressbar'
-									aria-label='Basic example'
-									aria-valuenow='100'
-									aria-valuemin='0'
-									aria-valuemax='100'
-								>
-									<div
-										className='progress-bar'
-										style={{ width: '0', backgroundColor: '#6244C5' }}
-									></div>
-								</div>
-							</div>
+					<div className='skill-grid'>
+						<div className='skill-block'>
+							<img src={HTML} alt='' />
+							<p>HTML</p>
 						</div>
-						<div className='col-md-6'>
-							<div className='skill mb-4'>
-								<div className='d-flex justify-content-between'>
-									<h6 className=''>React.js & Next.jS</h6>
-									<h6 className=''>in 2021</h6>
-								</div>
-								<div
-									className='progress'
-									role='progressbar'
-									aria-label='Basic example'
-									aria-valuenow='100'
-									aria-valuemin='0'
-									aria-valuemax='100'
-								>
-									<div
-										className='progress-bar'
-										style={{ width: '0', backgroundColor: '#0dcaf0' }}
-									></div>
-								</div>
-							</div>
-
-							<div className='skill mb-4'>
-								<div className='d-flex justify-content-between'>
-									<h6 className=''>Node.js & MongoDB</h6>
-									<h6 className=''>In 2022</h6>
-								</div>
-								<div
-									className='progress'
-									role='progressbar'
-									aria-label='Basic example'
-									aria-valuenow='100'
-									aria-valuemin='0'
-									aria-valuemax='100'
-								>
-									<div
-										className='progress-bar'
-										style={{ width: '0', backgroundColor: '#198754' }}
-									></div>
-								</div>
-							</div>
-							<div className='skill mb-4'>
-								<div className='d-flex justify-content-between'>
-									<h6 className=''>Express.js</h6>
-									<h6 className=''>In 2023</h6>
-								</div>
-								<div
-									className='progress'
-									role='progressbar'
-									aria-label='Basic example'
-									aria-valuenow='100'
-									aria-valuemin='0'
-									aria-valuemax='100'
-								>
-									<div
-										className='progress-bar'
-										style={{ width: '0', backgroundColor: '#c73a0ac7' }}
-									></div>
-								</div>
-							</div>
+						<div className='skill-block'>
+							<img src={CSS} alt='' />
+							<p>CSS</p>
+						</div>
+						<div className='skill-block'>
+							<img src={JS} alt='' />
+							<p>JavaScript</p>
+						</div>
+						<div className='skill-block'>
+							<img src={SassLogo} alt='' />
+							<p>Sass</p>
+						</div>
+						<div className='skill-block'>
+							<img src={ReactLogo} alt='' />
+							<p>React.js</p>
+						</div>
+						<div className='skill-block'>
+							<img src={NextLogo} alt='' />
+							<p>Next.js</p>
+						</div>
+						<div className='skill-block'>
+							<img src={ReduxLogo} alt='' />
+							<p>Redux</p>
+						</div>
+						<div className='skill-block'>
+							<img src={TailwindLogo} alt='' />
+							<p>Tailwind.css</p>
+						</div>
+						<div className='skill-block'>
+							<img src={BootstrapLogo} alt='' />
+							<p>Bootstrap</p>
+						</div>
+						<div className='skill-block'>
+							<img src={MUI} alt='' />
+							<p>Material UI</p>
+						</div>
+						<div className='skill-block'>
+							<img src={GitLogo} alt='' />
+							<p>Git & Github</p>
+						</div>
+						<div className='skill-block'>
+							<img src={NodeLogo} alt='' />
+							<p>Node.js</p>
+						</div>
+						<div className='skill-block'>
+							<img src={ExpressLogo} alt='' />
+							<p>Express.js</p>
+						</div>
+						<div className='skill-block'>
+							<img src={MongoLogo} alt='' />
+							<p>MongoDB</p>
 						</div>
 					</div>
 				</div>
-				{/* Skills end */}
+				{/* My Skills End */}
 				<hr className='separator'></hr>
 				{/* Experience & Education Starts  */}
 				<div className='experience'>

@@ -21,6 +21,8 @@ const portfolio = () => {
 						<img src={HIMS} alt='' />
 					</div>
 					<h3>HIMS</h3>
+					<p className="details">Institue Landing Page</p>
+					<p className="details"><span className="tech">Techs:</span>HTML5 - CSS3 - JS - AOS library</p>
 					<div className='portfolio-item-cta'>
 						<a
 							href='https://github.com/Toxn-boybot/HIMS'
@@ -43,6 +45,8 @@ const portfolio = () => {
 						<img src={Fiverr} alt='' />
 					</div>
 					<h3>Fiverr</h3>
+					<p className="details">Static E-Commerce</p>
+					<p className="details"><span className="tech">Techs:</span>HTML5 - CSS3 - JS - Bootstrap</p>
 					<div className='portfolio-item-cta'>
 						<a
 							href='https://github.com/Toxn-boybot/Fiverr'
@@ -65,6 +69,8 @@ const portfolio = () => {
 						<img src={Eskil} alt='' />
 					</div>
 					<h3>Eskil</h3>
+					<p className="details">Dynamic E-Commerce</p>
+					<p className="details"><span className="tech">Techs:</span>React.js - Axios - Router - Bootstrap</p>
 					<div className='portfolio-item-cta'>
 						<a
 							href='https://github.com/Toxn-boybot/E-Commerce-ESKIL'
@@ -87,6 +93,8 @@ const portfolio = () => {
 						<img src={WeatherApp} alt='' />
 					</div>
 					<h3>Weather App</h3>
+					<p className="details">Institue Landing Page</p>
+					<p className="details"><span className="tech">Techs:</span>HTML5 - CSS3 - JS - REST API</p>
 					<div className='portfolio-item-cta'>
 						<a
 							href='https://github.com/Toxn-boybot/Weather-App'
@@ -110,6 +118,8 @@ const portfolio = () => {
 						<img src={Dashboard} alt='' />
 					</div>
 					<h3>Admin Dashboard</h3>
+					<p className="details">Institue Landing Page</p>
+					<p className="details"><span className="tech">Techs:</span>Html5 - CSS3 </p>
 					<div className='portfolio-item-cta'>
 						<a
 							href='https://github.com/Toxn-boybot/Dashboard'

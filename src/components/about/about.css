@@ -49,6 +49,28 @@
     padding-left: 45px;
     font-weight: 300;
 }
+
+.about .skills .skill-grid {
+	display: flex;
+	gap: 1.25rem;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.about .skills .skill-grid .skill-block {
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about .skills .skill-grid .skill-block img {
+	width: 8rem;
+	max-width: 100%;
+}
+
+
 .about .skills .title, .experience .title {
     padding-bottom: 50px;
     font-weight: 600;
