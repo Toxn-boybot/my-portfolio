@@ -3,9 +3,12 @@ import App from './App';
 
 // import './css/circle.css';
 // import './css/fm.revealator.jquery.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import './css/preloader.min.css';
 import './css/skins/yellow.css';
 import './css/style.css';
+
+
 import './index.css'
 
 
