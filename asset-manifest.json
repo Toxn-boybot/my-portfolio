@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.438ad710.css",
-    "main.js": "/my-portfolio/static/js/main.c46d27eb.js",
+    "main.css": "/my-portfolio/static/css/main.bd6707f8.css",
+    "main.js": "/my-portfolio/static/js/main.b9a047c8.js",
     "static/media/fiverr.png": "/my-portfolio/static/media/fiverr.0b78b8758b989b3b44d4.png",
     "static/media/hims.png": "/my-portfolio/static/media/hims.7352cb40c8d3fe6d446a.png",
     "static/media/Mahmoud Saad Resume.pdf": "/my-portfolio/static/media/Mahmoud Saad Resume.07f6219f99e7980d114b.pdf",
@@ -21,11 +21,11 @@
     "static/media/fa-v4compatibility.ttf": "/my-portfolio/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.438ad710.css.map": "/my-portfolio/static/css/main.438ad710.css.map",
-    "main.c46d27eb.js.map": "/my-portfolio/static/js/main.c46d27eb.js.map"
+    "main.bd6707f8.css.map": "/my-portfolio/static/css/main.bd6707f8.css.map",
+    "main.b9a047c8.js.map": "/my-portfolio/static/js/main.b9a047c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.438ad710.css",
-    "static/js/main.c46d27eb.js"
+    "static/css/main.bd6707f8.css",
+    "static/js/main.b9a047c8.js"
   ]
 }
