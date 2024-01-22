@@ -1,0 +1,173 @@
+.about h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 56px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 60px 0;
+	color: #ffb400;
+    text-shadow: 2px 4px 3px #9f0404;
+}
+.about .about-list .title {
+	opacity: 0.6;
+	text-transform: capitalize;
+}
+.about .about-list .value {
+	font-weight: 500;
+}
+.about .personal-info h3 {
+	margin-bottom: 20px;
+	font-size: 23px;
+    border-bottom: 1px solid #eee;
+    width: 70%;
+}
+
+.about .about-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.about .about-list li {
+	flex: 0 0 50%;
+	max-width: 50%;
+	padding-bottom: 20px;
+}
+@media only screen and (max-width: 576px) {
+	.about .about-list li {
+		flex: 0 0 50%;
+		max-width: 100%;
+		padding-bottom: 20px;
+	}
+    .about .box-stats.with-margin {
+		margin-bottom: 25px;
+        text-align: center;
+	}
+}
+.row{
+ align-items: center;
+}
+.about .box-stats p {
+    padding-left: 45px;
+    font-weight: 300;
+}
+
+.about .skills .skill-grid {
+	display: flex;
+	gap: 1.25rem;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.about .skills .skill-grid .skill-block {
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about .skills .skill-grid .skill-block img {
+	width: 8rem;
+	max-width: 100%;
+}
+
+
+.about .skills .title, .experience .title {
+    padding-bottom: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.about .resume-box .icon {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	line-height: 40px;
+	text-align: center;
+	z-index: 1;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #ffb400;
+}
+.progress{
+	height: 14px;
+}
+
+/* Resume */
+
+.about .resume-box ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.about .resume-box li {
+	position: relative;
+	padding: 0 20px 0 60px;
+	margin: 0 0 50px;
+}
+
+.about .resume-box li:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 20px;
+	bottom: 0;
+	border-left: 1px solid #333;
+}
+
+
+
+.about .resume-box .time {
+	color: #fff;
+	font-size: 12px;
+	padding: 1px 10px;
+	display: inline-block;
+	margin-bottom: 12px;
+	border-radius: 20px;
+	font-weight: 600;
+	background-color: #252525;
+	opacity: 0.8;
+}
+
+.about .resume-box h5 {
+	font-size: 18px;
+	margin: 7px 0 10px;
+}
+
+.about .resume-box p {
+	margin: 0;
+	color: #eee;
+	font-size: 14px;
+}
+
+.about .resume-box .place {
+	opacity: 0.8;
+	font-weight: 600;
+	font-size: 15px;
+	position: relative;
+	padding-left: 26px;
+}
+
+.about .resume-box .place:before {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 2px;
+	background-color: #fff;
+	left: 7px;
+	top: 9px;
+	opacity: 0.8;
+}
+
+@media(max-width:767px){
+	.about .skills .title, .experience .title{
+		font-size: 24px;
+	}
+	.about .resume-box h5 {
+		font-size: 16px;
+	}
+}

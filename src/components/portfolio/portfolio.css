@@ -1,0 +1,107 @@
+.portfolio{
+    padding-bottom: 70px;
+}
+
+
+.portfolio h1 {
+    font-family: 'Poppins', sans-serif;
+	font-size: 49px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 60px auto 10px;
+	color: #ffb400;
+    text-shadow: 2px 4px 3px #9f0404;
+    width: 100%;
+}
+.portfolio h5 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff99;
+    margin-bottom: 60px;
+}
+
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+.portfolio-item {
+    background: #212324;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.portfolio-item .details:last-of-type {
+    font-size: 0.8rem;
+}
+.portfolio-item .details .tech {
+    background-color: #1c9931;
+    padding: 3px;
+    margin-right: 5px;
+    color: #242101;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
+}
+.portfolio-item:hover{
+    border-color: #212324;
+    background: #21232457;
+}
+.portfolio-item-img{
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    overflow: hidden;
+    
+}
+.portfolio-item-img img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+.portfolio-item h3{
+    margin: 1.2rem 0 1.2rem;
+}
+.portfolio-item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.portfolio-item-cta .btn:hover{
+    background-color: #ffb400;
+}
+.portfolio-item-cta .btn{
+    background-color: #ff8a05;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+/* ========= MEDIA QUERIES (MEDIUM DEVICES) ======*/
+@media(max-width:1024px){
+    .portfolio-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+/* ========= MEDIA QUERIES (SMALL DEVICES) ======*/
+@media(max-width:600px){
+    .portfolio-container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
